@@ -1,5 +1,15 @@
+body{
+  background-color: black;
+  color: #33FF00;
+  font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
+
 .help-block{
   font-weight: bold;
+  display: none;
+}
+
+#java, #css, #csharp, #php, #ruby, #java2{
   display: none;
 }
 
@@ -7,6 +17,25 @@
   font-size: 2em;
 }
 
-#java, #css, #csharp, #php, #ruby, #java2{
-  display: none;
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+  color: red;
+}
+
+.panel{
+    background-color: #27292b;
+}
+
+.jumbotron{
+  background-color: #27292b;
+}
+
+.results{
+  text-align: center;
+  font-size: 3em;
 }
