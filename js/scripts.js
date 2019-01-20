@@ -27,9 +27,11 @@ $(document).ready(function() {
   $("form#survey").submit(function(event) {
     event.preventDefault();
     var choice1 = $("input:radio[name=development]:checked").val();
-    var choice2 = $("input:radio[name=development]:checked").val();
-    var choice3 = $("input:radio[name=development]:checked").val();
-    var choice4 = $("input:radio[name=development]:checked").val();
-    var choice5 = $("input:radio[name=development]:checked").val();
+    var choice2 = $("input:radio[name=os]:checked").val();
+    var choice3 = $("input:radio[name=typeApp]:checked").val();
+    var choice4 = $("input:radio[name=exp]:checked").val();
+    var choice5 = $("input:radio[name=goal]:checked").val();
+    var answer = determine(choice1, choice2, choice3, choice4, choice5);
+
   });
 });

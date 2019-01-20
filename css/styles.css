@@ -1,3 +1,7 @@
 .help-block{
   display: none;
 }
+
+#java, #css, #csharp, #php, #ruby, #java2{
+  display: none;
+}
