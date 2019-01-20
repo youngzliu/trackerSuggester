@@ -1,5 +1,10 @@
 .help-block{
+  font-weight: bold;
   display: none;
+}
+
+.control-label{
+  font-size: 2em;
 }
 
 #java, #css, #csharp, #php, #ruby, #java2{
