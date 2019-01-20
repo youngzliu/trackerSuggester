@@ -15,6 +15,11 @@ track to take._
 * _Clone this repository._
 * _Open index.html in your browser of choice._
 
+## Known Bugs
+
+_Track selector algorithm is fairly simple. Can be improved upon to take into account
+more of the user's input._
+
 ## Support and contact details
 
 _For support find me at Epicodus._
